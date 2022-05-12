@@ -1,0 +1,96 @@
+.container {
+  border-radius: 30px;
+  width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.container img {
+  border-radius: 30px;
+  width: 400px;
+}
+.save {
+  background-color: red;
+  border-radius: 50px;
+  transition: transform 1s ease-out;
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  bottom: 520px;
+  left: 300px;
+  z-index: 3;
+}
+.save p {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.save:hover {
+  background-color: brown;
+}
+.container-2 {
+  background-color: aliceblue;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+}
+.link {
+  background-color: white;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  z-index: 2;
+}
+.share {
+  background-color: white;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 270px;
+  z-index: 2;
+}
+.dots {
+  background-color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 330px;
+  z-index: 4;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+.container:hover{
+  opacity: 0.8;
+  fill-opacity: rgb(40, 38, 38);
+}
+.container img:hover + .container-1 {
+  display: block;
+ 
+
+}
+
+.container .container-1 {
+  border-radius: 30px;
+  display: none;
+  width: 400px;
+  position: relative;
+}
